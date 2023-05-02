@@ -1,6 +1,6 @@
 # crowdtangle-api-schema
 
-Simple ontological representation of the [CrowdTangle API](https://github.com/CrowdTangle/API) to be used as [Tropy metadata template](https://docs.tropy.org/in-the-template-editor/using-templates).
+Simple ontological representation of the [CrowdTangle API](https://github.com/CrowdTangle/API) to be used in a [Tropy metadata template](https://docs.tropy.org/in-the-template-editor/using-templates).
 
 ## Creator
 
