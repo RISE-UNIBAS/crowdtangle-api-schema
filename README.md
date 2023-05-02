@@ -2,6 +2,8 @@
 
 Simple ontological representation of the [CrowdTangle API](https://github.com/CrowdTangle/API) to be used in a [Tropy metadata template](https://docs.tropy.org/in-the-template-editor/using-templates).
 
+[![DOI](https://zenodo.org/badge/633760717.svg)](https://zenodo.org/badge/latestdoi/633760717)
+
 ## Creator
 
 This metadata schema was created by the University of Basel's Research and Infrastructure Support RISE (rise@unibas.ch) in 2023.
