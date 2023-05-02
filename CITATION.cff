@@ -8,10 +8,10 @@ authors:
     orcid: 'https://orcid.org/0000-0002-9337-4655'
 identifiers:
   - type: doi
-    value: x
+    value: 10.5281/zenodo.7888061
     description: All versions
   - type: doi
-    value: x
+    value: 10.5281/zenodo.7888062
     description: Version 0.1.0
 url: >-
   https://github.com/RISE-UNIBAS/crowdtangle-api-schema
