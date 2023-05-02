@@ -20,6 +20,8 @@ abstract: >-
 keywords:
   - Tropy
   - CrowdTangle
+  - metadata
+  - ontology
 license: CC-BY-4.0
 version: 0.1.0
 date-released: '2023-05-02'
