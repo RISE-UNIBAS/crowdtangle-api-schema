@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: RISE-UNIBAS/bildersammlung-buddhismus-public
+message: 'If you use this dataset, please cite it as below.'
+type: dataset
+authors:
+  - family-names: Hindermann
+    given-names: Maximilian
+    orcid: 'https://orcid.org/0000-0002-9337-4655'
+identifiers:
+  - type: doi
+    value: x
+    description: All versions
+  - type: doi
+    value: x
+    description: Version 0.1.0
+url: >-
+  https://github.com/RISE-UNIBAS/crowdtangle-api-schema
+abstract: >-
+  Simple ontological representation of the [CrowdTangle API](https://github.com/CrowdTangle/API) to be used as [Tropy metadata template](https://docs.tropy.org/in-the-template-editor/using-templates).
+keywords:
+  - Tropy
+  - CrowdTangle
+license: CC-BY-4.0
+version: 0.1.0
+date-released: '2023-05-02'
