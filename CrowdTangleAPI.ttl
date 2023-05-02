@@ -1,0 +1,254 @@
+@prefix : <https://github.com/RISE-UNIBAS/crowdtangle-api-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://github.com/RISE-UNIBAS/crowdtangle-api-schema> .
+
+<https://github.com/RISE-UNIBAS/crowdtangle-api-schema> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#account
+:account rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Post ;
+         rdfs:label "account"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#angryCount
+:angryCount rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Metric ;
+            rdfs:label "angryCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#brandedContentSponsor
+:brandedContentSponsor rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :Post ;
+                       rdfs:label "brandedContentSponsor"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#caption
+:caption rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Post ;
+         rdfs:label "caption"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#careCount
+:careCount rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Metric ;
+           rdfs:label "careCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Post ;
+      rdfs:label "date"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Post ;
+             rdfs:label "description"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#expandedLinks
+:expandedLinks rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Post ;
+               rdfs:label "expandedLinks"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#favoriteCount
+:favoriteCount rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Metric ;
+               rdfs:label "favoriteCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#hahaCount
+:hahaCount rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Metric ;
+           rdfs:label "hahaCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#id
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdfs:domain :Post ;
+    rdfs:label "id"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#imageText
+:imageText rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Metric ;
+           rdfs:label "imageText"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#legacyid
+:legacyid rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Post ;
+          rdfs:label "legacyid"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#likeCount
+:likeCount rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Metric ;
+           rdfs:label "likeCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#link
+:link rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Post ;
+      rdfs:label "link"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#liveVideoStatus
+:liveVideoStatus rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Post ;
+                 rdfs:label "liveVideoStatus"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#loveCount
+:loveCount rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Metric ;
+           rdfs:label "loveCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#media
+:media rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain :Post ;
+       rdfs:label "media"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#message
+:message rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Post ;
+         rdfs:label "message"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#platform
+:platform rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Post ;
+          rdfs:label "platform"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#platformId
+:platformId rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Post ;
+            rdfs:label "platformId"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#postUrl
+:postUrl rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Post ;
+         rdfs:label "postUrl"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#score
+:score rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain :Post ;
+       rdfs:label "score"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#shareCount
+:shareCount rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Metric ;
+            rdfs:label "shareCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#statistics
+:statistics rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Post ;
+            rdfs:label "statistics"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#subscriberCount
+:subscriberCount rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Metric ;
+                 rdfs:label "subscriberCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#thankfulCount
+:thankfulCount rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Metric ;
+               rdfs:label "thankfulCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#type
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Post ;
+      rdfs:label "type"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#upCount
+:upCount rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Metric ;
+         rdfs:label "upCount"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#updated
+:updated rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Post ;
+         rdfs:label "updated"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#videoLengthMS
+:videoLengthMS rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Post ;
+               rdfs:label "videoLengthMS"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#wowCount
+:wowCount rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Metric ;
+          rdfs:label "wowCount"^^rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#Metric
+:Metric rdf:type owl:Class ;
+        rdfs:subClassOf :Post ;
+        rdfs:label "Metric"^^rdfs:Literal .
+
+
+###  https://github.com/RISE-UNIBAS/crowdtangle-api-schema#Post
+:Post rdf:type owl:Class ;
+      rdfs:label "Post"^^rdfs:Literal .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
