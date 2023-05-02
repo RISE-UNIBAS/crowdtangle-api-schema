@@ -8,14 +8,9 @@ This dataset was created by the University of Basel's Research and Infrastructur
 
 ## File structure and data overview
 
-Note that there are [different versions of this dataset](https://github.com/RISE-UNIBAS/rheinschifffahrt/releases).
+Note that there are [different versions of this dataset](https://github.com/RISE-UNIBAS/crowdtangle-api-schema/releases).
 
-Data in [/files](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files) with
-- analysis of images and transcriptions in [/files/analysis](https://github.com/RISE-UNIBAS/rheinschifffahrt/master/files/analysis)
-- images in [/files/images](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files/images)
-- metadata in [/files/metadata](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files/metadata)
-- transcriptions (and corresponding metadata) in [/files/transcriptions](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files/transcriptions)
-- metadata schemas in [/files/schemas](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files/schemas)
+
 
 ## To dos
 
