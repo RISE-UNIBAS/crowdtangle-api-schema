@@ -15,6 +15,10 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 - `/schema/CrowdTangleAPI.ttl` is the simple ontological representation of the [CrowdTangle API](https://github.com/CrowdTangle/API) created with Protégé (v5.5.0). 
 - `/schema/CrowdTangleAPI.ttp` is the Tropy (v1.13.0) template.
 
+## How to use this template
+
+See the [Tropy documentation](https://docs.tropy.org/in-the-template-editor/export-import-templates#import-a-template) on how to import a template.
+
 ## To dos
 
 So far, only the [Post object](https://github.com/CrowdTangle/API/wiki/Post) is implemented.
